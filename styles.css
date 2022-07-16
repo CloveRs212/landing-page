@@ -44,18 +44,41 @@ table {
 }
 
 /*** My CSS ***/
-/* Index */
+/* Navbar/Header */
 
 * {
   text-decoration: none;
 }
 
+.index-head {
+	background-color: #1f2937;
+	width: 100%;
+}
+
 .index-navbar {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #1f2937;
-  height: 50px;
-  padding-top: 24px;
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	padding-top: 20px;
+}
+
+#nav-logo {
+	float: left;
+}
+
+#nav-links {
+	float: right;
+}
+
+.index-navbar-links ul {
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+.index-navbar-links ul li a {
+	color: #f9faf8;
+	margin: 0px 20px 0px 25px;
 }
 
 .index-logo a {
@@ -65,10 +88,65 @@ table {
   margin: 24px 16px 10px 20px;
 }
 
-.index-menu {
-  display: flex;
+.index-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #f9faf8;
+	width: 600px;
+	padding: 70px 0px 80px 36px;
 }
 
-.index-menu ul {
-  display: flex;
+.index-header h1 {
+	font-size: 48px;
+	font-weight: bolder;
+	margin-bottom: 20px;
 }
+
+.index-header p {
+	margin-bottom: 30px;
+	line-height: 20px;
+	text-indent: 35px;
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.index-header button {
+	background-color: #3882f6;
+	border-radius: 10px;
+	font-size: 16px;
+	text-align: center;
+	color: #e5e7eb;
+	font-weight: 900;
+	padding: 5px 20px 5px 20px;
+	width: 200px;
+}
+
+.index-header-photo {
+	height: 160px;
+	width: 360px;
+	color: #f9faf8;
+	background-color: #e5e7eb;
+	margin: 50px 0px 0px 100px;
+	padding: 20px;
+}
+
+.wrapper1 {
+	padding-top: 100px;
+}
+
+@media only screen and (min-width: 1000px) {
+
+	.wrapper1 {
+		width: 1100px;
+		display:flex;
+		margin: 0 auto;
+	}
+
+	.wrapper {
+		width: 1100px;
+		margin: 0 auto;
+	}
+}
+
