@@ -150,3 +150,41 @@ table {
 	}
 }
 
+/* Index Body */
+
+.index-programs {
+	height: 500px;
+	background-color: #fff;
+	width: 100%;
+}
+
+.index-programs h2 {
+	font-size: 36px;
+	font-weight: bolder;
+	color: #1f2937;
+	text-align: center;
+	margin: 20px 0px 70px 0px;
+}
+
+.index-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.index-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 250px;
+	text-align: center;
+}
+
+.index-box-display {
+	height: 100px;
+	width: 100px;
+	border: 5px solid #3882f6;
+	border-radius: 10px;
+	align-items: center;
+	margin-bottom: 15px;
+}
