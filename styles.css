@@ -161,6 +161,7 @@ table {
 .index-programs h2 {
 	font-size: 36px;
 	font-weight: bolder;
+	text-transform: uppercase;
 	color: #1f2937;
 	text-align: center;
 	margin: 20px 0px 70px 0px;
@@ -248,6 +249,11 @@ table {
 	color: #f9faf8;
 	font-weight: 300;
 	font-size: 24px;
+}
+
+.index-box-display img {
+	width: 90px;
+	height: 90px;	
 }
 
 .footer {
