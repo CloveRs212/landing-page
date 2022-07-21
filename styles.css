@@ -66,6 +66,21 @@ table {
 	float: left;
 }
 
+.nav-social {
+	height: 40px;
+	width: 40px;
+}
+
+#social-twitter {
+	height: 30px;
+	width: 30px;
+}
+
+#social-instagram {
+	height: 30px;
+	width: 30px;
+}
+
 #nav-links {
 	float: right;
 }
